@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio | Hussein M.M</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/d853bc7e93.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="assets/img/logo1.png" class="logo">
+        <ul id="side-menu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, Am <span>Hussein</span><br>from Uganda</h1>
+      </div>
+    </div>
+  </div>
+
+  <!--============= About ================-->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="assets/img/user.png" alt="user_image">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About me</h1>
+          <p>Hello! I'm Hussein Migadde, a passionate and dedicated self-taught web developer 
+            with a strong background in creating dynamic and responsive websites.
+            My journey into web development began out of curiosity and a love for 
+            technology, and it has since transformed into a fulfilling career. 
+            With a keen eye for design and a focus on functionality, I strive to build
+            user-friendly and visually appealing websites.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+            <p class="tab-links" onclick="opentab('experience', event)">Experience</p>
+            <p class="tab-links" onclick="opentab('education', event)">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>Front-End Development</span><br>HTML, CSS, JavaScript, React</li>
+              <li><span>Back-End Development</span><br>django, python, SQL</li>
+              <li><span>Web Design</span><br>Adobe Photoshop, UX/UI Design</li>
+              <li><span>Tools and Technologies</span><br>Git, GitHub, VS Code, REST APIs</li>
+              <li><span>Others</span><br>Wordpress, Responsive Design, Cross-Browser Compatibility, SEO Best Practices</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>2022 - Current</span><br>Technician ScootDr</li>
+              <li><span>2014 - 2022</span><br>Technician Vespa SA</li>
+              <li><span>2013 - 2014</span><br>Manager Debonairs Palm Springs</li>
+              <li><span>2011 - 2013</span><br>Driver Nandos Signet Terrance</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>2005 - 2007</span><br>MAKERERE UNIVERSITY KAMPALA</li>
+              <li><span>2002 - 2003</span><br>St. Michael High School (U.A.C.E)</li>
+              <li><span>1998 - 2001</span><br>Union High School Bulenga (U.C.E)</li>
+              <li><span>1991 - 1997</span><br>Kampala Parent's School (P.L.E)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- ===============About END ===================-->
+<!-- ===============Services Starts===================-->
+<div id="services">
+  <div class="container">
+    <h1 class="sub-title">My Services</h1>
+    <div class="services-list">
+      <div>
+        <i class="fa-solid fa-code"></i>
+        <h2>Web Design</h2>
+        <p>My journey into web development began out of curiosity and a love for 
+          technology, and it has since transformed into a fulfilling career. 
+          With a keen eye for design and a focus on functionality, I strive to build
+          user-friendly and visually appealing websites.</p>
+          <a href="#">Learn More...</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-database"></i>
+        <h2>UI/UX Design</h2>
+        <p>My journey into web development began out of curiosity and a love for 
+          technology, and it has since transformed into a fulfilling career. 
+          With a keen eye for design and a focus on functionality, I strive to build
+          user-friendly and visually appealing websites.</p>
+          <a href="#">Learn More...</a>
+      </div>
+      <div>
+        <i class="fa-solid fa-laptop-code"></i>
+        <h2>App Design</h2>
+        <p>My journey into web development began out of curiosity and a love for 
+          technology, and it has since transformed into a fulfilling career. 
+          With a keen eye for design and a focus on functionality, I strive to build
+          user-friendly and visually appealing websites.</p>
+          <a href="#">Learn More...</a>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- ===============Services End===================-->
+<!-- ===============Portfolio Starts===================-->
+<div id="portfolio">
+  <div class="container">
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+      <div class="work">
+        <img src="assets/img/work-4.png" alt="work">
+        <div class="layer">
+          <h3>Online Shopping</h3>
+          <p>Our platform brings the bounty of our idyllic 
+            countryside farm straight to your doorstep.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="assets/img/work-5.png" alt="work">
+        <div class="layer">
+          <h3>E-Commerce Website</h3>
+          <p>Our platform brings the bounty of our idyllic 
+            countryside farm straight to your doorstep.</p>
+            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+      <div class="work">
+        <img src="assets/img/work-6.png" alt="work">
+        <div class="layer">
+          <h3>Industry Websites</h3>
+          <p>Our platform brings the bounty of our idyllic 
+            countryside farm straight to your doorstep.</p>
+            <a href="https:www.gasenafrica.co.tz"><i class="fa-solid fa-up-right-from-square"></i></a>
+        </div>
+      </div>
+    </div>
+    <a href="#" class="btn">See More...</a>
+  </div>
+</div>
+<!-- ===============Portfolio End===================-->
+<!-- ===============Contact Starts===================-->
+
+<div id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-solid fa-envelope"></i> mmhussein13@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +27 837288948</p>
+        <div class="social-icons">
+          <a href="https://github.com/mmhussein13"><i class="fa-brands fa-square-github"></i></a>
+          <a href="https://www.linkedin.com/in/hussein-migadde-110623299/"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://www.facebook.com/mmhussein13"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://twitter.com/mmhussein12"><i class="fa-brands fa-square-x-twitter"></i></a>
+        </div>
+        <a href="assets/Hussein Resume.pdf" download class="btn btn2">Download CV</a>
+      </div>
+      <div class="contact-right">
+        <form name="submit-to-google-sheet" action="">
+          <input type="text" name="Name" placeholder="Your Name" required>
+          <input type="email" name="Email" id="" placeholder="Your Email" required>
+          <textarea name="Message" id="" rows="6" placeholder="Your Message"></textarea>
+          <button class="btn btn2" type="submit">Submit</button>
+        </form>
+        <span id="msg"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ===============Contact End===================-->
+<!-- ======= Footer ======= -->
+
+  <footer class="footer">
+    <div class="">
+      <div class="copyright">
+        <p>&copy; Copyright <strong><span>Hussein</span></strong>. All Rights Reserved. Designed with <i class="fa-solid fa-heart"></i> by <a href=" ">Hussein M.M</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- End Footer -->
+
+  <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname, event){
+      for (let tablink of tablinks){
+        tablink.classList.remove("active-link");
+      }
+      for (let tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+
+  <script>
+    function openmenu() {
+        document.getElementById('side-menu').style.right = '0';
+    }
+
+    function closemenu() {
+        document.getElementById('side-menu').style.right = '-200px';
+    }
+</script>
+
+<!-- ======================================Script handling Contact Form=====================-->
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyYPe5WzAZ879_-sRpZ5_UOib9AexBvI2IhDLEoxR-tJCli-eiACIhX5xyeMQ8Q4KOX/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg = document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML = "Message Sent successfully"
+        setTimeout(function(){
+          msg.innerHTML = ""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+
+</body>
+</html>
