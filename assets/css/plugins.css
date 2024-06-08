@@ -1,0 +1,19 @@
+/**
+-----
+----- Template Name : Poojy
+----- Version       : 1.0.0
+----- Author        : Wip Themes
+----- Author URL    : https://themeforest.net/user/wip-themes
+-----
+----- This file is used to load 3rd pary plugin css file(s)
+----- Place any plugin css here, so you don't need to edit all HTML files to apply the styles from the plugin
+-----
+*/
+
+@import url("https://unpkg.com/ionicons@4.4.4/dist/css/ionicons.min.css");
+
+@import url("plugins/leaflet.css");
+
+@import url("plugins/magnificPopup.css");
+
+@import url("plugins/swiper.min.css");
